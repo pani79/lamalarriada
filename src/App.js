@@ -3,6 +3,19 @@ import './App.css';
 
 function App() {
   return (
+    <div className="container">
+      <header className="App-header">
+        <h1>La Malarriada</h1>
+        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+    </div>
+  );
+}
+
+export default App;
+
+/* 
+
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -19,7 +32,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+*/
